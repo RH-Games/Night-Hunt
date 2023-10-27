@@ -1,0 +1,140 @@
+﻿  COMIntegration.cpp
+  The contents of <filesystem> are available only with C++17 or later.
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(137,114): error C2664: 'DWORD GetEnvironmentVariableW(LPCWSTR,LPWSTR,DWORD)': cannot convert argument 2 from 'const _Elem *' to 'LPWSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(137,93): message : Conversion loses qualifiers
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\processenv.h(161,1): message : see declaration of 'GetEnvironmentVariableW'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(145,6): error C2664: 'DWORD GetEnvironmentVariableW(LPCWSTR,LPWSTR,DWORD)': cannot convert argument 2 from 'const _Elem *' to 'LPWSTR'
+          with
+          [
+              _Elem=wchar_t
+          ]
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(145,71): message : Conversion loses qualifiers
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\processenv.h(161,1): message : see declaration of 'GetEnvironmentVariableW'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(154,13): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(154,13): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(154,25): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(154,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(154,30): error C2143: syntax error: missing ',' before '&'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(166,35): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(171,35): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(177,35): error C2065: 'solutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(184,3): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(201,3): error C2065: 'dwProcessId': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(209,13): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(209,13): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(209,25): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(209,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(209,30): error C2143: syntax error: missing ',' before '&'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(249,8): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(249,8): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(249,20): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(249,25): error C2146: syntax error: missing ';' before identifier 'currentVisualStudioExecutablePath'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(249,25): error C2065: 'currentVisualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(261,8): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(261,8): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(261,20): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(261,25): error C2146: syntax error: missing ';' before identifier 'currentSolutionPath'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(261,25): error C2065: 'currentSolutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(262,7): error C2065: 'currentSolutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(265,47): error C2065: 'currentSolutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(269,12): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(269,12): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(269,24): error C2039: 'equivalent': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(269,35): error C2065: 'currentSolutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(269,56): error C2065: 'solutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(269,6): error C3861: 'equivalent': identifier not found
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(271,9): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(272,14): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(272,14): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(272,26): error C2039: 'equivalent': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(272,37): error C2065: 'currentVisualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(272,72): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(272,8): error C3861: 'equivalent': identifier not found
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(346,94): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(346,94): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(346,106): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(346,111): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(346,111): error C2143: syntax error: missing ',' before '&'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(347,26): error C2065: 'filename': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(353,7): error C2065: 'filename': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(360,79): error C2065: 'filename': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(365,7): error C2065: 'line': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(372,26): error C2065: 'line': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(397,13): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(397,13): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(397,25): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(397,30): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(397,30): error C2143: syntax error: missing ',' before '&'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(407,44): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(407,72): error C2065: 'solutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(415,33): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(415,61): error C2065: 'solutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(443,46): error C2065: 'filename': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(443,56): error C2065: 'line': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,7): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,7): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,19): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,24): error C2065: 'path': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,24): error C2146: syntax error: missing ';' before identifier 'visualStudioExecutablePath'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,24): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,58): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,58): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,70): error C2039: 'absolute': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(464,78): error C3861: 'absolute': identifier not found
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,7): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,7): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,19): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,24): error C2065: 'path': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,24): error C2146: syntax error: missing ';' before identifier 'solutionPath'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,24): error C2065: 'solutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,44): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,44): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,56): error C2039: 'absolute': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(465,64): error C3861: 'absolute': identifier not found
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(468,24): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(468,52): error C2065: 'solutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,7): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,7): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,19): error C2039: 'path': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,24): error C2065: 'path': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,24): error C2146: syntax error: missing ';' before identifier 'fileName'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,24): error C2065: 'fileName': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,40): error C2039: 'filesystem': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,40): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,52): error C2039: 'absolute': is not a member of 'std'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\sstream(20): message : see declaration of 'std'
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(472,60): error C3861: 'absolute': identifier not found
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(475,23): error C2065: 'visualStudioExecutablePath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(475,51): error C2065: 'solutionPath': undeclared identifier
+C:\Users\kamik\Desktop\gamejams\Night Hunt\Library\packagecache\com.unity.ide.visualstudio@2.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp(475,65): error C2065: 'fileName': undeclared identifier

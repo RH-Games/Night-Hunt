@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Ground
+  - background
+  - NpcsLayer
+  - Player
+  - Sky
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: floorhide
+    uniqueID: 803234101
+    locked: 0
+  - name: backgound
+    uniqueID: 2480010037
+    locked: 0
+  - name: forground
+    uniqueID: 1440863509
+    locked: 0
+  - name: Player
+    uniqueID: 910642879
+    locked: 0
+  - name: Sky
+    uniqueID: 1273001113
+    locked: 0
+  - name: NpcsLayer
+    uniqueID: 4008065539
+    locked: 0
+  - name: floor
+    uniqueID: 1176387949
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: UI
+    uniqueID: 1731243703
+    locked: 0

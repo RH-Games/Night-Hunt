@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{D8765860-6749-47C4-A218-960880F948E3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Disabled</Optimization>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <TargetMachine>MachineX86</TargetMachine>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Library\packagecache\com.unity.ide.visualstudio%402.0.16\Editor\comintegration\comintegration~\COMIntegration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Library\packagecache\com.unity.ide.visualstudio%402.0.16\Editor\comintegration\comintegration~\BStrHolder.h" />
+    <ClInclude Include="Library\packagecache\com.unity.ide.visualstudio%402.0.16\Editor\comintegration\comintegration~\ComPtr.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="library\packagecache\com.unity.2d.animation%407.0.7\editor\Unity.2D.Animation.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.animation%407.0.7\ik\editor\Unity.2D.IK.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.animation%407.0.7\ik\runtime\Unity.2D.IK.Runtime.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.animation%407.0.7\runtime\Unity.2D.Animation.Runtime.asmdef" />
+    <None Include="Library\packagecache\com.unity.2d.animation%407.0.7\Samples~\animationsamples\5 spriteswap\Scripts\Editor\Unity.2D.Animation.Samples.Editor.asmdef" />
+    <None Include="Library\packagecache\com.unity.2d.animation%407.0.7\Samples~\animationsamples\5 spriteswap\Scripts\Runtime\Unity.2D.Animation.Samples.Runtime.asmdef" />
+    <None Include="Library\packagecache\com.unity.2d.animation%407.0.7\Samples~\animationsamples\Scripts\Unity.2D.Animation.Samples.Dependency.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.animation%407.0.7\tests\editor\Unity.2D.Animation.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.common%406.0.4\editor\internalbridge\InternalBridgeDef.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.common%406.0.4\editor\Unity.2D.Common.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.common%406.0.4\runtime\internalbridge\InternalBridgeDef.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.common%406.0.4\runtime\Unity.2D.Common.Runtime.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.common%406.0.4\tests\editor\Unity.2D.Common.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.path%405.0.2\editor\Unity.2D.Path.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.path%405.0.2\tests\Unity.2D.Path.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.pixel-perfect%405.0.1\editor\Unity.2D.PixelPerfect.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.pixel-perfect%405.0.1\runtime\Unity.2D.PixelPerfect.asmdef" />
+    <None Include="Library\packagecache\com.unity.2d.pixel-perfect%405.0.1\Samples~\scenes and extras\Scenes\rule tiles\Scripts\Editor\Unity.2D.PixelPerfect.Samples.Editor.asmdef" />
+    <None Include="Library\packagecache\com.unity.2d.pixel-perfect%405.0.1\Samples~\scenes and extras\Unity.2D.PixelPerfect.Samples.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.pixel-perfect%405.0.1\tests\editor\Unity.2D.PixelPerfect.Editor.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.pixel-perfect%405.0.1\tests\runtime\Unity.2D.PixelPerfect.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.psdimporter%406.0.5\editor\psdplugin\PsdPlugin.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.psdimporter%406.0.5\editor\Unity.2D.Psdimporter.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.psdimporter%406.0.5\tests\editortests\Unity.2D.Psdimporter.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.sprite%401.0.0\editor\Unity.2D.Sprite.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.sprite%401.0.0\tests\editor\Unity.2D.Sprite.Package.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.spriteshape%407.0.6\editor\Unity.2D.SpriteShape.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.spriteshape%407.0.6\runtime\Unity.2D.SpriteShape.Runtime.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.spriteshape%407.0.6\tests\editor\Unity.2D.SpriteShape.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.tilemap%401.0.0\editor\Unity.2D.Tilemap.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.tilemap%401.0.0\tests\editor\Unity.2D.Tilemap.Package.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.tilemap.extras%402.2.3\editor\Unity.2D.Tilemap.Extras.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.tilemap.extras%402.2.3\runtime\Unity.2D.Tilemap.Extras.asmdef" />
+    <None Include="library\packagecache\com.unity.2d.tilemap.extras%402.2.3\tests\editor\Unity.2D.Tilemap.Extras.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.burst%401.6.6\editor\Unity.Burst.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.burst%401.6.6\runtime\editor\Unity.Burst.ForEditor.asmref" />
+    <None Include="library\packagecache\com.unity.burst%401.6.6\runtime\Unity.Burst.asmdef" />
+    <None Include="library\packagecache\com.unity.burst%401.6.6\tests\editor\separateassembly\SeparateAssembly.asmdef" />
+    <None Include="library\packagecache\com.unity.burst%401.6.6\tests\editor\Unity.Burst.Editor.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.burst%401.6.6\tests\runtime\Unity.Burst.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.burst%401.6.6\unity.burst.codegen\Unity.Burst.CodeGen.asmdef" />
+    <None Include="library\packagecache\com.unity.collab-proxy%401.17.2\editor\collaborate\Unity.CollabProxy.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.collab-proxy%401.17.2\editor\plasticscm\Unity.PlasticSCM.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.collab-proxy%401.17.2\tests\editor\collaborate\Unity.CollabProxy.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.collab-proxy%401.17.2\tests\editor\plasticscm\Unity.PlasticSCM.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.ide.rider%403.0.15\rider\editor\com.unity.ide.rider.asmdef" />
+    <None Include="library\packagecache\com.unity.ide.visualstudio%402.0.16\editor\com.unity.ide.visualstudio.asmdef" />
+    <None Include="library\packagecache\com.unity.ide.vscode%401.2.5\editor\Unity.com.unity.vscode.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.mathematics%401.2.6\tests\Unity.Mathematics.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.mathematics%401.2.6\unity.mathematics.editor\Unity.Mathematics.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.mathematics%401.2.6\unity.mathematics\Unity.Mathematics.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\editor\core\configuration\Unity.Services.Core.Configuration.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\editor\core\Unity.Services.Core.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\analytics\Unity.Services.Core.Analytics.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\configuration\Unity.Services.Core.Configuration.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\core.internal\Unity.Services.Core.Internal.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\core\Unity.Services.Core.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\device\Unity.Services.Core.Device.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\environments\internal\Unity.Services.Core.Environments.Internal.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\environments\Unity.Services.Core.Environments.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\networking\Unity.Services.Core.Networking.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\registration\Unity.Services.Core.Registration.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\scheduler\Unity.Services.Core.Scheduler.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\telemetry\Unity.Services.Core.Telemetry.asmdef" />
+    <None Include="library\packagecache\com.unity.services.core%401.4.2\runtime\threading\Unity.Services.Core.Threading.asmdef" />
+    <None Include="library\packagecache\com.unity.test-framework%401.1.31\unityeditor.testrunner\UnityEditor.TestRunner.asmdef" />
+    <None Include="library\packagecache\com.unity.test-framework%401.1.31\unityengine.testrunner\UnityEngine.TestRunner.asmdef" />
+    <None Include="library\packagecache\com.unity.textmeshpro%403.0.6\scripts\editor\Unity.TextMeshPro.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.textmeshpro%403.0.6\scripts\runtime\Unity.TextMeshPro.asmdef" />
+    <None Include="library\packagecache\com.unity.textmeshpro%403.0.6\tests\editor\Unity.TextMeshPro.Editor.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.textmeshpro%403.0.6\tests\runtime\Unity.TextMeshPro.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.timeline%401.6.4\doccodeexamples\DocCodeExamples.asmdef" />
+    <None Include="library\packagecache\com.unity.timeline%401.6.4\editor\Unity.Timeline.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.timeline%401.6.4\runtime\Unity.Timeline.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\annotation\Editor\Timeline.Samples.Annotation.Editor.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\annotation\Timeline.Samples.Annotation.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\Text\Editor\Timeline.Samples.Text.Editor.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\Text\Timeline.Samples.Text.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\timedilation\Timeline.Samples.TimeDilation.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\Tween\Editor\Timeline.Samples.Tween.Editor.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\Tween\Timeline.Samples.Tween.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\utilities\Editor\Timeline.Samples.Utilities.Editor.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\utilities\Timeline.Samples.Utilities.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\Video\Editor\Timeline.Samples.Video.Editor.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\customization\Video\Timeline.Samples.Video.asmdef" />
+    <None Include="Library\packagecache\com.unity.timeline%401.6.4\Samples~\gameplaysequencedemo\Info\Scripts\Samples.GameplaySequence.asmdef" />
+    <None Include="library\packagecache\com.unity.ugui%401.0.0\editor\UnityEditor.UI.asmdef" />
+    <None Include="library\packagecache\com.unity.ugui%401.0.0\runtime\UnityEngine.UI.asmdef" />
+    <None Include="library\packagecache\com.unity.ugui%401.0.0\tests\editor\UnityEditor.UI.EditorTests.asmdef" />
+    <None Include="library\packagecache\com.unity.ugui%401.0.0\tests\runtime\UnityEngine.UI.Tests.asmdef" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\editor\settingsprovider\Unity.VisualScripting.SettingsProvider.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\editor\visualscripting.core\System.Threading.defines" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\editor\visualscripting.core\Unity.VisualScripting.Core.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\editor\visualscripting.core\YamlDotNet.defines" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\editor\visualscripting.flow\Unity.VisualScripting.Flow.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\editor\visualscripting.shared\Unity.VisualScripting.Shared.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\editor\visualscripting.state\Unity.VisualScripting.State.Editor.asmdef" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\runtime\visualscripting.core\MiscUtil.defines" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\runtime\visualscripting.core\Unity.VisualScripting.Core.asmdef" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\runtime\visualscripting.flow\Antlr3.Runtime.defines" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\runtime\visualscripting.flow\Unity.VisualScripting.Flow.asmdef" />
+    <None Include="library\packagecache\com.unity.visualscripting%401.7.8\runtime\visualscripting.state\Unity.VisualScripting.State.asmdef" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\12dd28f2246aee7b715a4cd3af0df833.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\197e48c2c60a67e681ba3655a5b5ee18.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\1c1234d016bded1c4d3d4847436910b7.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\2b2354d5b813472f20ec99b4722d468e.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\40d8b355f6b12c2386d4508e8f62ebbb.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\4c4e227b2110cea15fdc7eb9c7b5103d.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\4ca9f3ad4c614d7466319a5972df1221.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\507c7785eecbefa98890255da3988940.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\53e48945f6df0dd1d6fa1342ca796fcf.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\5cdd0f0686be140dfc5da4152bc1790a.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\5e98861bd6b8c0e74619a81b9d87c6d4.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\6568945d549d92207cded55a75046b2e.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\69be5034b122a89132d94f51508c2fd7.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\7226df679eb1913db9c6341f55073e19.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\7404bb2aed28d6eec70947f93b508d38.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\783a52fcfd92a49ffa485d213e2f8dbc.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\7d5a1e59a02e8b1b673bdbbea2adf485.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\88901b2071d4fa54c0efb8742053a9c0.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\949ef5de6066c43ca11ac8cefa3fbe5c.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\a29b83604def9fd0f8e69c9042a4b055.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\a56b5627d4cbc341b6ea9a16c683898c.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\ac9471e1a1832381f64e4f984c85a669.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\af222d67b9145fecd79578552ac5cba0.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\b90570c6f949eeeaa07b13c0952f46a5.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\c888ea47977b89a8dd839dff95dcf222.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\de69be012b62dee14149a6c8f35b8bf9.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\eb43cf81b5f88ec9200227ac35e66a60.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\ec8de1ad582050fde7baab56c3672796.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\edc570d08b33c3bdb1bce7ad08617008.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\f37027c5bc6b75efe8c70b746ea64567.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\f4d165b219b8ab18dc2b494764d3a29e.bin" />
+    <None Include="library\shadercache\builtin\unity_builtin_extra0000\00\fbac7592fd8873c9aa038440c613abb9.bin" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

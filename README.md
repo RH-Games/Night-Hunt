@@ -1,2 +1,2 @@
-# Night-Hunt
-First game created in Unity
+# NightHunt
+ first game jam created In unity 2022
